@@ -1,3 +1,0 @@
-rule cc
-  command = gcc -c $in -o $out
-build calculator.o : cc calculator.cpp
